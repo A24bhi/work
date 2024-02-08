@@ -8,6 +8,11 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'project';
+
+  openDemographicsDialog(): void {
+    // Add your logic to open the demographics dialog here
+  }
 }
